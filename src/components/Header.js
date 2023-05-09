@@ -25,11 +25,11 @@ const Header = () => {
       className={`${
         // if bg is true
         bg
-          ? 'bg-primary py-4 lg:py-6'
+          ? 'bg-primary py-4 lg:py-6 fixed'
           : // if bg is false
-            'bg-none'
+            'bg-none absolute'
       }
-      fixed left-0 py-8 z-10 w-full transition-all duration-200`}
+       left-0 py-8 z-10 w-full transition-all duration-200`}
     >
       <div className='container mx-auto'>
         <div className='flex justify-between items-center'>
